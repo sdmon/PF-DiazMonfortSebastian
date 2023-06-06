@@ -61,39 +61,6 @@ div .planetas h3 {
   font-size: 20px;
   color: white; }
 
-/*@media screen and (max-width: 1250px) {
-    div {
-        div {
-            div{
-                .index-banner{
-                    visibility: hidden;
-                }
-            }
-        }
-    }
-}
-@media screen and (max-width: 1250px){
-    div{
-        div{
-            div{
-                iframe{
-                    visibility: hidden;
-                }
-            }
-        }
-    }
-}
-@media screen and (max-width: 1250px){
-    div{
-        div{
-            div{
-                .echoes{
-                    visibility: hidden;
-                }
-            }
-        }
-    }
-}*/
 header nav {
   background-color: black;
   top: 0;
