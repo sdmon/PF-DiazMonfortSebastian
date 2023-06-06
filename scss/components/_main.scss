@@ -1,13 +1,8 @@
-div {
-    div {
-        div {
-            .index-banner {
-                width: 1500px;
-                height: 200px;
-                margin-top: 50px;
+div {    
+            .index-banner {   
+                max-width: 100%;                
+                height: 100%;
             }
-        }
-    }
 
     div {
         .hero {
@@ -40,15 +35,7 @@ div {
             justify-content: center;
             font-size: 30px;
         }
-    }
-
-    div {
-        div {
-            iframe {
-                width: 900px;
-                height: 600px;
-            }
-        }
+    }    
 
         div {
             .owDescripcion {
@@ -71,7 +58,7 @@ div {
             }
         }
     }
-}
+
 
 div {
     .planetasTitulo {
@@ -341,38 +328,32 @@ div {
     }
 }
 
-div {
-    div {
-        div {
-            .echoes {
-                width: 1500px;
-                height: 200px;
-                margin-top: 90px;
-            }
-        }
+div {    
+        .echoes {
+                max-width: 100%;
+                height: 100%;        
     }
 }
 
-div{
+div{  
     div{
         div{
             .owH2{
-
             }
         }
     }
     div{
         div{
-            iframe{
-                
+            .responsive-iframe{
+                position: relative;
+                width:100%;                
+                height: 100%;                
             }
         }
         div{
-            .owDescripcion{
-               
+            .owDescripcion{               
             }
             .owDescripcionJuego{
-
             }
             .yaDisponible{
                 color: $color-ppal;
