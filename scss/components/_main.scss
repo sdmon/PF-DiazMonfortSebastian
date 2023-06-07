@@ -43,7 +43,7 @@ div {
                 font-family: $tipo-ppal;
                 font-weight: 700;
                 font-size: 25px;
-                margin-left: 50px;
+                margin-left: 80px;
             }
 
             .owDescripcionJuego {
@@ -54,7 +54,7 @@ div {
                 font-weight: 500;
                 margin-bottom: 8px;
                 font-size: 20px;
-                margin-left: 40px;
+                margin-left: 80px;
             }
         }
     }
@@ -336,7 +336,7 @@ div {
 }
 
 div{  
-    div{
+    div{        
         div{
             .owH2{
             }
@@ -346,8 +346,8 @@ div{
         div{
             .responsive-iframe{
                 position: relative;
-                width:100%;                
-                height: 100%;                
+                width:100%;                               
+                height:480px;
             }
         }
         div{
@@ -356,20 +356,18 @@ div{
             .owDescripcionJuego{
             }
             .yaDisponible{
-                color: $color-ppal;
-                display: flex;
-                align-items: center;
+                color: $color-ppal;                
                 font-family: $tipo-ppal;
                 font-weight: 700;                
-                font-size: 60px;
+                font-size: 40px;
                 margin-left: 40px;
             }
             a{
                 .fotoSteam{
                     display: flex;
                     align-items: center;                    
-                    width: 200px;
-                    height: 200px;
+                    width: 150px;
+                    height: 150px;
                 }
             }
         }
