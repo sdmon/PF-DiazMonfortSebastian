@@ -42,8 +42,7 @@ div .planetasTitulo, .planetasTitulo, section .planetasTitulo, div div div .plan
   font-family: "Montserrat";
   font-weight: 700;
   font-size: 40px;
-  color: #f17536;
-  margin-top: 100px; }
+  color: #f17536; }
 
 div .planetas p {
   font-family: "Montserrat";
@@ -65,9 +64,9 @@ header nav {
   background-color: black;
   top: 0;
   text-decoration: none;
-  color: white;
-  font-size: 25px;
-  float: right; }
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 25px; }
   header nav div .logo-img {
     width: 80px;
     height: 65px; }
@@ -75,6 +74,12 @@ header nav {
 div .index-banner {
   max-width: 100%;
   height: 100%; }
+
+div .h1-formato {
+  font-family: "Montserrat";
+  color: #f17536;
+  font-weight: 700;
+  margin-top: 15px; }
 
 div div .hero {
   display: flex;
@@ -115,9 +120,6 @@ div div .owDescripcionJuego {
   margin-bottom: 8px;
   font-size: 20px;
   margin-left: 80px; }
-
-div .planetasTitulo {
-  margin-left: -1px; }
 
 div .planetas p .timber-png {
   width: 160px;

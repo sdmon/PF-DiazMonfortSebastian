@@ -3,10 +3,11 @@ header {
     nav{
         background-color: black;    
         top: 0;
-        text-decoration: none;
-        color:white;
-        font-size:25px;    
-        float:right;
+        text-decoration: none;        
+        font-family: $tipo-ppal;        
+        font-weight: 700;
+        font-size:25px;  
+            
         div{
             .logo-img{
                 width: 80px;

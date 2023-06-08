@@ -3,6 +3,12 @@ div {
                 max-width: 100%;                
                 height: 100%;
             }
+            .h1-formato{
+                font-family: $tipo-ppal;
+                color:$color-brand;
+                font-weight: 700;
+                margin-top:15px;
+            }
 
     div {
         .hero {
@@ -62,8 +68,7 @@ div {
 
 div {
     .planetasTitulo {
-        @extend %planetas-titulo;
-        margin-left: -1px;
+        @extend %planetas-titulo;        
     }
 
     .planetas {
@@ -335,13 +340,7 @@ div {
     }
 }
 
-div{  
-    div{        
-        div{
-            .owH2{
-            }
-        }
-    }
+div{
     div{
         div{
             .responsive-iframe{
@@ -350,11 +349,7 @@ div{
                 height:480px;
             }
         }
-        div{
-            .owDescripcion{               
-            }
-            .owDescripcionJuego{
-            }
+        div{            
             .yaDisponible{
                 color: $color-ppal;                
                 font-family: $tipo-ppal;
