@@ -177,8 +177,7 @@ div {
 }
 
 .planetasTitulo {
-    @extend %planetas-titulo;
-    margin-left: 25px;
+    @extend %planetas-titulo;    
 }
 
 section {
@@ -225,8 +224,7 @@ section {
 
 div {
     .planetasTitulo {
-        @extend %planetas-titulo;
-        margin-left: 4px;
+        @extend %planetas-titulo;        
     }
 
     div {

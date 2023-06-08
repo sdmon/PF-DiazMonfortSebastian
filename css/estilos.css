@@ -145,9 +145,6 @@ div .planetas p .theeye-png {
   width: 220px;
   height: 200px; }
 
-.planetasTitulo {
-  margin-left: 25px; }
-
 section div div .borderMerch {
   margin-left: 10px;
   border: 3px solid #f17536;
@@ -170,9 +167,6 @@ section div div .borderMerch {
     margin-left: 80px;
     margin-right: 80px;
     color: white; }
-
-div .planetasTitulo {
-  margin-left: 4px; }
 
 div div div form .labelsForms {
   color: white;
