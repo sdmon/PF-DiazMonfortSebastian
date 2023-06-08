@@ -33,7 +33,7 @@ h3 {
 
 div .planetas {
   border: 3px solid #f17536;
-  margin-bottom: 4px; }
+  margin-bottom: 30px; }
 
 div .planetasTitulo, .planetasTitulo, section .planetasTitulo, div div div .planetasTitulo {
   font-family: "Montserrat";
@@ -147,7 +147,7 @@ section div div .borderMerch {
   width: 640px; }
   section div div .borderMerch .ropa {
     width: 100%;
-    height: 80%;
+    height: 75%;
     object-fit: cover; }
   section div div .borderMerch p {
     color: white;
