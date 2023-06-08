@@ -48,8 +48,7 @@ div {
                 color: $color-brand;
                 font-family: $tipo-ppal;
                 font-weight: 700;
-                font-size: 25px;
-                margin-left: 80px;
+                font-size: 25px;                
             }
 
             .owDescripcionJuego {
@@ -59,8 +58,7 @@ div {
                 font-family: $tipo-ppal;
                 font-weight: 500;
                 margin-bottom: 8px;
-                font-size: 20px;
-                margin-left: 80px;
+                font-size: 20px;                
             }
         }
     }
@@ -224,10 +222,10 @@ section {
 
 div {
     .planetasTitulo {
-        @extend %planetas-titulo;        
+        @extend %planetas-titulo;
     }
 
-    div {
+    div {        
         div {
             form {
                 .labelsForms {
@@ -235,14 +233,12 @@ div {
                     font-family: 'Montserrat';
                     font-weight: 700;
                     font-size: 30px;
-                    margin-left: -2px;
-
                 }
 
                 .inputEmail {
                     margin-top: 5px;
                     margin-bottom: 20px;
-                    width: 90%;
+                    width: 100%;
                     background-color: transparent;
                     border: 2px solid rgb(255, 128, 0);
                     color: white;
@@ -262,7 +258,7 @@ div {
                     height: 200px;
                     margin-top: 5px;
                     margin-bottom: 20px;
-                    width: 90%;
+                    width: 100%;
                     background-color: transparent;
                     border: 2px solid rgb(255, 128, 0);
                     color: white;
@@ -353,14 +349,17 @@ div{
                 font-family: $tipo-ppal;
                 font-weight: 700;                
                 font-size: 40px;
-                margin-left: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
             }
             a{
-                .fotoSteam{
-                    display: flex;
-                    align-items: center;                    
+                display:flex;
+                justify-content: center;
+                align-items: center;
+                .fotoSteam{                                                          
                     width: 150px;
-                    height: 150px;
+                    height: 150px;                    
                 }
             }
         }
